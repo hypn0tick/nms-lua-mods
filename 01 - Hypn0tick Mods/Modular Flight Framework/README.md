@@ -116,10 +116,12 @@ First and foremost, I would like to thank Babscoole for reviewing my code, inspi
 
 - Babscoole
 
-- Xen0nex
+- lMonk
+
+- PodcastPrimate
 
 - WinderTP
 
-- PodcastPrimate
+- Xen0nex
 
 - Others I am certainly forgetting at the moment
