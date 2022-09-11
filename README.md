@@ -49,8 +49,8 @@ AMUMSS uses [*MBINCompiler.exe*](https://github.com/monkeyman192/MBINCompiler) t
    - You may need to do this multiple times if the update doesn't apply.
 
 4. Open the "BUILDMOD.bat" file again. If it updated correctly, AMUMSS will then create a list of your game's ".pak" files and automatically download the latest MBINCombiler.exe. If everything updated correctly, you should see the terminal output something similar to the following:
-
-5. <img title="" src="https://i.imgur.com/hAHX0Ij.png" alt="" width="472">
+   
+   <img title="" src="https://i.imgur.com/hAHX0Ij.png" alt="" width="487" data-align="center">
 
 ### Building a Mod:
 
