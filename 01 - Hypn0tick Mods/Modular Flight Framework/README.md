@@ -36,7 +36,7 @@ This script should allow both mod authors and users to create and share alterati
 
 - Easily modify planetary & atmospheric flight parameters.
   
-  - Enable hovering & reversing when flying on planets.
+  - Enable hovering or reversing when flying on planets.
   
   - Enable low or underwater flight.
   
@@ -46,7 +46,7 @@ This script should allow both mod authors and users to create and share alterati
   
   - Modify ship scanner parameters.
 
-- Modify freighter settings.
+- Easily modify freighter settings.
   
   - Remove multiplayer freighter limit (typically 1 per system).
   
