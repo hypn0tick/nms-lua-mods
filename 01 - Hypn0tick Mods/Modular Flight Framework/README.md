@@ -58,15 +58,15 @@ This script should allow both mod authors and users to create and share alterati
 
 - And more!
 
-### Installation
+## Installation
 
 To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, you will need to follow a few basic steps:
 
-#### Install Dependencies
+### Install Dependencies
 
 The Modular Flight Framework is a .lua script that uses AMUMSS to create a usable .pak file. Ensure you have [installed AMUMSS and its dependencies](https://github.com/hypn0tick/nms-lua-mods#installing-amumss) correctly to ensure a smooth experience.
 
-#### Download the Modular Flight Framework
+### Download the Modular Flight Framework
 
 Download the script to your AMUMSS "ModScript" folder. If you struggle to download the file, simply [copy its contents](https://raw.githubusercontent.com/hypn0tick/nms-lua-mods/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Hypn0tick%20-%20Modular%20Flight%20Framework.lua) into a new .lua file in your "ModScript" folder.
 
