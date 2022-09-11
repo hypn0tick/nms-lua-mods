@@ -31,8 +31,8 @@ BaseDescription     =   [[
 Enable_Flight_Changes               =   true    --  This variable controls the main function of the script: re-writing the parameter blocks that control ship speeds.
                                                 --  It is included to allow mods using only a subset of this script's features to maintain compatibility with other mods using this framework or otherwise altering the same core parameters.
 
-Disable_AutoBrake                   =   false   --  When set to "true", the script will disable most automatic brake settings.
-                                                --  This makes it so that ships will maintain their momentum while flying, similar to "Elite Dangerous".
+Disable_Flight_Assist               =   true    --  When set to "true", the script will disable most automatic brake settings that act as an artificial "flight assist".
+                                                --  This makes it so that ships will maintain their momentum while flying in space, similar to "Elite Dangerous".
                                                 --  Note: This will only affect space travel and combat, but not planetary flight or atmospheric combat.
 
 Disable_AutoAvoidance               =   false   --  When set to "true", the script will disable all flight automatic avoidance parameters.
@@ -1282,7 +1282,7 @@ if Enable_Freighter_Changes then
     }
 end
 
-if Disable_AutoBrake then
+if Disable_Flight_Assist then
     PropertyTable[#PropertyTable +1 ] =
     {
         ["MBIN_FILE_SOURCE"] = 
