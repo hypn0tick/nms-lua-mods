@@ -74,11 +74,13 @@ You are now ready to build LUA script-based mods for No Man's Sky!
 
 **NOTE:** The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the [variant with base-game values](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua) included in the repository.
 
-### Build the Mod:
+### Build the Mod(s)
 
 Now that you have downloaded AMUMSS and the Modular Flight Framework script, turning the script into a useable mod is a very simply process. With its script's .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file.
 
-When you run AMUMSS, it will ask whether to automatically copy the created .pak file to your NMS "MODS" folder and delete the "DISABLEMODS.txt" file from the game's "PCBANKS" folder. If you choose not to, simply move the newly-created file from the AMUMSS "CreatedModPAKs" folder to the game's "GAMEDATA\PCBANKS\MODS" folder and delete the "GAMEDATA\PCBANKS\DISABLEMODS.txt" file. Your game will now start with the mod enabled. 
+When you run AMUMSS, it will ask whether to automatically copy the created .pak file to your NMS "MODS" folder and delete the "DISABLEMODS.txt" file from the game's "PCBANKS" folder. If you choose not to, simply move the newly-created file from the AMUMSS "CreatedModPAKs" folder to the game's "GAMEDATA\PCBANKS\MODS" folder and delete the "GAMEDATA\PCBANKS\DISABLEMODS.txt" file. Your game will now start with the mod enabled.
+
+To build multiple mods created with the Modular Flight Framework, place them all inside the "ModScript" folder and rename the scripts alphabetically so that those you with changes you wish to take priority are loaded last. Otherwise, disable the appropriate features in your scripts so that they do not conflict.
 
 ## Creating & Modifying Modular Flight Mods
 
