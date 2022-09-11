@@ -10,7 +10,7 @@ For more information on modding No Man's Sky, using AMUMSS, fixing bugs, and muc
 
 This AMUMSS script serves as a framework with which flight-related mods for No Man's Sky can be both created easily by mod authors, and later fine-tuned by users in the simplest possible manner.
 
-## Features:
+### Features:
 
 - Modular features that can be enabled/disabled individually.
 
@@ -62,15 +62,15 @@ To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, y
 
 #### Install Dependencies
 
-The Modular Flight Framework is a .lua script that uses AMUMSS to create a usable .pak file. Ensure you have installed AMUMSS and its dependencies correctly to ensure a smooth experience.
+The Modular Flight Framework is a .lua script that uses AMUMSS to create a usable .pak file. Ensure you have [installed AMUMSS and its dependencies](https://github.com/hypn0tick/nms-lua-mods#installing-amumss) correctly to ensure a smooth experience.
 
 #### Download the Modular Flight Framework
 
-[Download the script]() to your AMUMSS "ModScript" folder. If you struggle to download the file, simply [copy its contents]() into a new .lua file in your "ModScript" folder.
+Download the script to your AMUMSS "ModScript" folder. If you struggle to download the file, simply [copy its contents](https://raw.githubusercontent.com/hypn0tick/nms-lua-mods/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Hypn0tick%20-%20Modular%20Flight%20Framework.lua) into a new .lua file in your "ModScript" folder.
 
 You are now ready to build LUA script-based mods for No Man's Sky!
 
-**NOTE:** The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the [variant with vanilla values]() included in the repository.
+**NOTE:** The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the [variant with base-game values](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua) included in the repository.
 
 ### Build the Mod:
 
@@ -92,8 +92,6 @@ The "general settings & multipliers" section is likely to be the only one touche
 
 <u>**Example Boolean:**</u>![](./Assets/Example_Boolean.png)
 
-
-
 <u>**Example Multiplier:**</u>![](./Assets/Example_Multiplier.png) 
 
 #### Base Numbers
@@ -107,3 +105,13 @@ The second section, base numbers, houses all of the default data used by the scr
 #### Code
 
 The final section, code, contains all of the script's logic. While I encourage users and mod authors to peruse the code for the sake of understanding (and potentially help to find any bugs I may have overlooked), changes to this section of the script should be largely unnecessary as everything is controlled by the prior sections.
+
+## Acknowledgements
+
+First and foremost, I would like to thank Babscoole for reviewing my code, inspiring me with their own, and generally being an awesome person. I would also like to send my heartfelt gratitude to the team behind AMUMSS for creating such an amazing tool. Finally, I would also like to thank the following mod authors for their help, inspiration from their own mods, etc.:
+
+- Babscoole
+
+- WinderTP
+
+- 
