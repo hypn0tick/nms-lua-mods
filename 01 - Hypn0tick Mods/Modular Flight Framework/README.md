@@ -92,6 +92,8 @@ The "general settings & multipliers" section is likely to be the only one touche
 
 <u>**Example Boolean:**</u>![](./Assets/Example_Boolean.png)
 
+
+
 <u>**Example Multiplier:**</u>![](./Assets/Example_Multiplier.png) 
 
 #### Base Numbers
@@ -114,4 +116,8 @@ First and foremost, I would like to thank Babscoole for reviewing my code, inspi
 
 - WinderTP
 
-- 
+- Xen0nex
+
+- PodcastPrimate
+
+- Others I am certainly forgetting at the moment
