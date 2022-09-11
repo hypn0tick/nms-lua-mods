@@ -12,7 +12,7 @@ This script should allow both mod authors and users to create and share alterati
 
 ### Features
 
-**NOTE:** The default version of the script enabled most of the features and changes have been made to some base values. A variant with vanilla values is provided in the repository.
+**NOTE:** The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A variant with vanilla values is provided in the repository.
 
 - Modular features that can be enabled/disabled individually.
 
