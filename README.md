@@ -57,5 +57,3 @@ AMUMSS uses [*MBINCompiler.exe*](https://github.com/monkeyman192/MBINCompiler) t
 Now that you have downloaded AMUMSS, turning a .lua script into a useable mod is a very simple process. With the script's .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file.
 
 When you run AMUMSS, it will ask whether to automatically copy the created ".pak" file to your NMS "MODS" folder and delete the "DISABLEMODS.txt" file from the game's "PCBANKS" folder. If you choose not to, simply move the newly-created file from the AMUMSS "CreatedModPAKs" folder to the game's "GAMEDATA\PCBANKS\MODS" folder and delete the "GAMEDATA\PCBANKS\DISABLEMODS.txt" file. Your game will now start with the mod enabled.
-
-The final section, code, contains all of the script's logic. While I encourage users and mod authors to peruse the code for the sake of understanding (and potentially help to find any bugs I may have overlooked), changes to this section of the script should be largely unnecessary as everything is controlled by the prior sections.
