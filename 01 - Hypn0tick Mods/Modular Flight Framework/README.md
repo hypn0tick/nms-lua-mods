@@ -58,7 +58,7 @@ This script should allow both mod authors and users to create and share alterati
 
 - And more!
 
-### Installation:
+### Installation
 
 To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, you will need to follow a few basic steps:
 
