@@ -3,7 +3,15 @@ ModAuthor           =   "Your_Name"
 LuaAuthor           =   "Hypn0tick,Your_Name"
 GameVersion         =   "3.99+"
 ModVersion          =   "1.0"
-BaseDescription     =   "Mod_Description"
+BaseDescription     =   [[
+    This script is both a mod, and a framework for building flight-related mods for No Man's Sky.
+    For ease of use, it is separated into three distinct sections:
+        - General Settings & Multipliers
+        - Base Numbers
+        - Code
+    For the first, most user-facing section, each variable has been labelled extensively.
+    Instructions for each section have been included preceding the same.
+    ]]
 
 
 ------------------------------------------------------------------------------------
