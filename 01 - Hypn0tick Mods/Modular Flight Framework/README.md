@@ -2,15 +2,17 @@
 
 A mod script and framework for No Man's Sky flight-related mods using the [AMUMSS Framework](https://github.com/HolterPhylo/AMUMSS), a LUA script-based mod builder that can build modifications using the game's (and other mods') latest files.
 
-This script should allow both mod authors and users to create and share alterations to NMS's flight settings more easily than ever before. Every parameter controlling all aspects of flight in NMS have been mapped out into convenient variables for authors, and even simpler multipliers for users. In the following sections, we will go over the script's sections and main functions.
-
 For more information on modding No Man's Sky, using AMUMSS, fixing bugs, and much more, feel free to join the [NMS Modding Discord](https://discord.gg/5Bb3pYYVyV). For LUA script examples, check out the [AMUMSS Standard Collection](https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection/tree/main/amumss-standard-collection), which includes various helpful learning examples, and the general [AMUMSS LUA Mod Script Collection](https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection).
 
 ## What is the Modular Flight Framework?:
 
 This AMUMSS script serves as a framework with which flight-related mods for No Man's Sky can be both created easily by mod authors, and later fine-tuned by users in the simplest possible manner.
 
+This script should allow both mod authors and users to create and share alterations to NMS's flight settings more easily than ever before. Almost every parameter controlling all aspects of flight in No Man's Sky have been mapped out into convenient variables for authors, and even simpler multipliers for users. Further in the Readme, we will go over the script's sections and main functions.
+
 ### Features:
+
+NOTE: In the default version of the script, most of the features are enabled and custom changes have been made to some base values. A variant with base-game values is provided in the repository.
 
 - Modular features that can be enabled/disabled individually.
 
@@ -112,9 +114,9 @@ First and foremost, I would like to thank Babscoole for reviewing my code, inspi
 
 - Babscoole
 
-- WinderTP
-
 - Xen0nex
+
+- WinderTP
 
 - PodcastPrimate
 
