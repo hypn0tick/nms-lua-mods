@@ -92,8 +92,6 @@ The "general settings & multipliers" section is likely to be the only one touche
 
 <u>**Example Boolean:**</u>![](./Assets/Example_Boolean.png)
 
-
-
 <u>**Example Multiplier:**</u>![](./Assets/Example_Multiplier.png) 
 
 #### Base Numbers
