@@ -14,7 +14,7 @@
 
 ### <p align="center">Features</p>
 
-<p align="justify"><ins>**NOTE:**</ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A variant with vanilla values is <a href="https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua">provided in the repository</a>.</p>
+<p align="justify"><ins><b>NOTE:</b></ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A variant with vanilla values is <a href="https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua">provided in the repository</a>.</p>
 
 - Modular features that can be enabled/disabled individually.
 
