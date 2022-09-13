@@ -116,6 +116,8 @@ Before building a Modular Flight Framework mod, you can open its .lua file to co
 
 To ensure maximum compatibility with other mods, mod authors should be careful to verify that only those features used by their mod are enabled within the script's contents. By doing so, any created mods will affect only necessary files, leaving changes added by other mods intact.
 
+<br/>
+
 ### <p align="center">Framework Script Contents</p>
 
 To simplify the process of editing the script's data, it has been separated into three different sections: <ins>general settings & multipliers, base numbers, and code.</ins>
