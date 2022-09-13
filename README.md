@@ -6,6 +6,31 @@
 
 <br/>
 
+## <p align="center">Table of Contents</p>
+
+<details>
+<summary>Click to Expand</summary>
+
+- [What is AMUMSS?](#what-is-amumss)
+
+- [Using Script Mods](#using-script-mods)
+  
+  - [Installing AMUMSS](#installing-amumss)
+  
+  	- [Install Dependencies](#install-dependencies)
+  
+  	- [Download & Update AMUMSS](#download--update-amumss)
+
+- [Building a Mod](#building-a-mod)
+  
+- [Building Multiple Mods Mods](#building-multiple-mods)
+
+- [Building Patch Mods](#building-patch-mods)
+  
+  </details>
+
+<br/>
+
 ## <p align="center">What is AMUMSS?</p>
 
 <p align="justify">The parameters that control most aspects of NMS' gameplay are stored in various .mbin files, which are subsequently compressed, packed into .pak files and read by the game. The game can ultimately read only one instance of each file, however, and therefore doesn't allow multiple mods to edit the same file. Editing the game's files directly also forces mod authors to manually update their work whenever the game's updates introduces new changes to those them. Further, it nearly impossible to create customize-able mods in this scenario. AMUMSS fixes these issues by modifying the game's latest files using a series of instructions provided by a LUA script.</p>
@@ -57,11 +82,11 @@
 3. <p align="justify">When asked whether you would like to update AMUMSS, type "Y". Afterwards, press any key to close the terminal and check for updates.</p>
    
    - <p align="justify">You may need to do this multiple times if the update doesn't apply.</p>
-   
+
 4. <p align="justify">Open the "BUILDMOD.bat" file again. If it updated correctly, AMUMSS will then create a list of your game's .pak files and automatically download the latest MBINCombiler.exe. If everything updated correctly, you should see the terminal output something similar to the following:</p>
    
    <img title="" src="./00 - Assets/AMUMSS_Update.png" title="AMUMSS Update" alt="AMUMSS_Install.png" width="487" data-align="center">
-   
+
 <br/>
 
 ### <p align="center">Building a Mod:</p>
