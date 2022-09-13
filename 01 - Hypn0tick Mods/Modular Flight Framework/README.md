@@ -112,11 +112,11 @@ To simplify the process of editing the script's data, it has been separated into
 
 The "general settings & multipliers" section is likely to be the only one touched by the vast majority of mod users. It primarily contains various booleans (true/false statements) that control the script's features, and multipliers that alter associated values.
 
-**Example Boolean:**
+<ins>**Example Boolean:**</ins>
 
 <img title="" src="../../00 - Assets/Example_Boolean.png" title="BooleanExample" alt="Example_Boolean.png" width="552">
 
-**Example Multiplier:**
+<ins>**Example Multiplier:**</ins>
 
 <img title="" src="../../00 - Assets/Example_Boolean.png" title="Multiplier Example" alt="Example_Multiplier.png" width="552">
 
@@ -128,7 +128,7 @@ The "general settings & multipliers" section is likely to be the only one touche
 
 The second section, base numbers, houses all of the default data used by the script and its modifiers. This section exists for mod authors to more easily alter these values without the need to change any code. By modifying this section (as opposed to the first), mod authors also allow their users to more easily tweak their mod's values using the multipliers in the first section without the need to create any code.
 
-**Example Base Numbers:**
+<ins>**Example Base Numbers:**</ins>
 
 <img title="" src="../../00 - Assets/Example_Base_Numbers.png" title="Base Number Example" alt="Example_Base_Numbers.png" width="552">
 
