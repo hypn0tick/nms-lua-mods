@@ -12,9 +12,9 @@ This script should allow both mod authors and users to create and share alterati
 
 ### <p align="center">Features</p>
 
-<ins>**NOTE:**</ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A [variant with vanilla values](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua) is provided in the repository.
+<ins>**NOTE:**</ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A variant with vanilla values is [provided in the repository](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua).
 
-<p align="center">
+
 
 - Modular features that can be enabled/disabled individually.
 
