@@ -12,7 +12,7 @@ This script should allow both mod authors and users to create and share alterati
 
 ### Features
 
-**NOTE:** The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A variant with vanilla values is provided in the repository.
+<ins>**NOTE:**</ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A [variant with vanilla values](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua) is provided in the repository.
 
 - Modular features that can be enabled/disabled individually.
 
@@ -64,7 +64,7 @@ To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, y
 
 ### Install Dependencies
 
-The Modular Flight Framework is a .lua script that uses AMUMSS to create a usable .pak file. Ensure you have [installed AMUMSS and its dependencies](https://github.com/hypn0tick/nms-lua-mods#installing-amumss) correctly to ensure a smooth experience.
+The Modular Flight Framework is a .lua script that uses AMUMSS to create a usable .pak file. Ensure you have [installed AMUMSS and its dependencies](https://github.com/hypn0tick/nms-lua-mods#installing-amumss) correctly to properly build LUA script-based mods for No Man's Sky.
 
 ### Download the Modular Flight Framework
 
@@ -72,11 +72,11 @@ Download the script to your AMUMSS "ModScript" folder. If you struggle to downlo
 
 You are now ready to build LUA script-based mods for No Man's Sky!
 
-**NOTE:** The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the [variant with base-game values](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua) included in the repository.
+<ins>**NOTE:**< The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the [variant with base-game values](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua) included in the repository.
 
 ### Build the Mod(s)
 
-Now that you have downloaded AMUMSS and the Modular Flight Framework script, turning the script into a useable mod is a very simply process. With its script's .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file.
+Now that you have downloaded AMUMSS and the Modular Flight Framework script, turning the script into a useable mod is a very simple process. With the .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file.
 
 When you run AMUMSS, it will ask whether to automatically copy the created .pak file to your NMS "MODS" folder and delete the "DISABLEMODS.txt" file from the game's "PCBANKS" folder. If you choose not to, simply move the newly-created file from the AMUMSS "CreatedModPAKs" folder to the game's "GAMEDATA\PCBANKS\MODS" folder and delete the "GAMEDATA\PCBANKS\DISABLEMODS.txt" file. Your game will now start with the mod enabled.
 
@@ -88,21 +88,21 @@ Before building a Modular Flight Framework mod, you can open its .lua file to co
 
 ### Framework Script Contents
 
-To simplify the process of editing the script's data, it has been separated into three different sections: <u>general settings & multipliers, base numbers, and code.</u>
+To simplify the process of editing the script's data, it has been separated into three different sections: <ins>general settings & multipliers, base numbers, and code.</ins>
 
 #### General Settings & Multipliers
 
 The "general settings & multipliers" section is likely to be the only one touched by the vast majority of mod users. It primarily contains various booleans (true/false statements) that control the script's features, and multipliers that alter associated values.
 
-<u>**Example Boolean:**</u>![](./Assets/Example_Boolean.png)
+<ins>**Example Boolean:**</ins>![](./Assets/Example_Boolean.png)
 
-<u>**Example Multiplier:**</u>![](./Assets/Example_Multiplier.png) 
+<ins>**Example Multiplier:**</ins>![](./Assets/Example_Multiplier.png) 
 
 #### Base Numbers
 
 The second section, base numbers, houses all of the default data used by the script and its modifiers. This section exists for mod authors to more easily alter these values without the need to change any code. By modifying this section (as opposed to the first), mod authors also allow their users to more easily tweak their mod's values using the multipliers in the first section without the need to create any code.
 
-<u>**Example Base Numbers:**</u>
+<ins>**Example Base Numbers:**</ins>
 
 <img title="" src="./Assets/Example_Numbers.png" alt="loading-ag-1222" width="552">
 
