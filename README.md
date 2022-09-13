@@ -4,6 +4,8 @@
 
 <p align="justify">For more information on modding No Man's Sky, using AMUMSS, fixing bugs, and much more, feel free to join the <a href="https://discord.gg/5Bb3pYYVyV">NMS Modding Discord</a>. For LUA script examples, check out the <a href="https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection/tree/main/amumss-standard-collection">AMUMSS Standard Collection</a>, which includes various helpful learning examples, and the general <a href="https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection">AMUMSS LUA Mod Script Collection</a>.</p>
 
+<br/>
+
 ## <p align="center">What is AMUMSS?</p>
 
 <p align="justify">The parameters that control most aspects of NMS' gameplay are stored in various .mbin files, which are subsequently compressed, packed into .pak files and read by the game. The game can ultimately read only one instance of each file, however, and therefore doesn't allow multiple mods to edit the same file. Editing the game's files directly also forces mod authors to manually update their work whenever the game's updates introduces new changes to those them. Further, it nearly impossible to create customize-able mods in this scenario. AMUMSS fixes these issues by modifying the game's latest files using a series of instructions provided by a LUA script.</p>
@@ -20,15 +22,21 @@
 
 <p align="justify">This approach is extremely beneficial in many ways. For example, it allows multiple script-based mods to alter the same files while ensuring compatibility with each other; will work across game updates (for the most part), making the same changes to the latest game files; and allows users to tweak and customize scripts to their liking.</p>
 
+<br/>
+
 ## <p align="center">Using Script Mods</p>
 
 <p align="justify">If you are simply looking to install a mod created with AMUMSS <b>and do not have any conflicting packed (.pak) mods installed</b> in your NMS mod folder (No Man's Sky\GAMEDATA\PCBANKS\MODS) that edit the same files, I recommend simply downloading the .pak file provided by the mod author and using it as-is.</p>
 
 <p align="justify">If you are looking to fine-tune or otherwise modify the values of a mod created with AMUMSS, to ensure compatibility between mods, or to create your own script(s), you will need to download and utilize the <a href="https://github.com/HolterPhylo/AMUMSS">AMUMSS Framework</a>, as described below. Once you have, place any script mods you wish to build or merge into the "ModScript" folder and run the "BUILDMOD.bat" file to build your mod's .pak file.</p>
 
+<br/>
+
 ### <p align="center">Installing AMUMSS</p>
 
 <p align="justify">To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, you will need to follow a few basic steps:</p>
+
+<br/>
 
 #### <p align="center">Install Dependencies</p>
 
@@ -37,6 +45,8 @@
 - [Download .NET 5.0 Desktop Runtime - Windows x64 Installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-5.0.17-windows-x64-installer)
 
 - [Download .NET 5.0 Desktop Runtime - Windows x86 Installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-5.0.17-windows-x86-installer)
+
+<br/>
 
 #### <p align="center">Download & Update AMUMSS</p>
 
