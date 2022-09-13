@@ -8,7 +8,7 @@
 
 ## <p align="center">Table of Contents</p>
 <details>
-<summary>"Click to Expand"</summary>
+<summary>Click to Expand</summary>
 
 - [Overview](#overview)
   
