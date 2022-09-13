@@ -90,4 +90,4 @@
 
 - <p align="justify">Once the mod's .pak file has been built, copy the created file from the "CreatedModPAKs" directory to the game's "PCBANKS\MODS" folder.</p>
   
-  - <p align="justify"><ins>**Note:**</ins> When using a patch mod, you should include the original mods' .pak files (the ones you placed in "ModScript") in the game's "PCBANKS\MODS" folder.</p>
+  - <p align="justify"><ins><b>Note:</b></ins> When using a patch mod, you should include the original mods' .pak files (the ones you placed in "ModScript") in the game's "PCBANKS\MODS" folder.</p>
