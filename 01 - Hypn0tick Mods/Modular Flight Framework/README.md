@@ -106,7 +106,7 @@ This function currently creates *minor* incompatibilities due to the way in whic
 
 <ins>**Example:**</ins> To load Shoemaker's Flight Adjustments on top of MFF's changes, simply rename "shoemakers_flight_adjustments.lua" to "Z_shoemakers_flight_adjustments.lua" or even "_shoemakers_flight_adjustments.lua" (better, as underscores load after letters).
 
-<br/><br/>
+<br/>
 
 ## <p align="center">Creating & Modifying Modular Flight Mods</p>
 
@@ -116,7 +116,7 @@ Before building a Modular Flight Framework mod, you can open its .lua file to co
 
 To simplify the process of editing the script's data, it has been separated into three different sections: <ins>general settings & multipliers, base numbers, and code.</ins>
 
-<br/><br/>
+<br/>
 
 ---
 
@@ -134,7 +134,7 @@ The "general settings & multipliers" section is likely to be the only one touche
 
 <img title="" src="../../00 - Assets/Example_Boolean.png" title="Multiplier Example" alt="Example_Multiplier.png" width="552">
 
-<br/><br/>
+<br/>
 
 ---
 
@@ -148,7 +148,7 @@ The second section, base numbers, houses all of the default data used by the scr
 
 <img title="" src="../../00 - Assets/Example_Base_Numbers.png" title="Base Number Example" alt="Example_Base_Numbers.png" width="552">
 
-<br/><br/>
+<br/>
 
 ---
 
@@ -158,9 +158,13 @@ The second section, base numbers, houses all of the default data used by the scr
 
 The final section, code, contains all of the script's logic. While I encourage users and mod authors to peruse the code for the sake of understanding (and potentially help to find any bugs I may have overlooked), changes to this section of the script should be largely unnecessary as everything is controlled by the prior sections.
 
-### Ensuring Compatibility
+<br/>
+
+### <p align="center">Ensuring Compatibility</p>
 
 To ensure maximum compatibility with other mods, mod authors should be careful to verify that only those features used by their mod are enabled within the script's contents. By doing so, any created mods will affect only necessary files, leaving changes added by other mods intact.
+
+<br/>
 
 ## <p align="center">Acknowledgements</p>
 
