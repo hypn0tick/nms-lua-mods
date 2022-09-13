@@ -14,29 +14,29 @@
 
 - [Installation](#installation)
   
-  - Install Dependencies
+  - [Install Dependencies](#install-dependencies)
   
-  - Download the Modular Flight Framework
+  - [Download the Modular Flight Framework](#download-the-modular-flight-framework)
   
-  - Build the Mod(s)
+  - [Build the Mod(s)](#build-the-mods)
 
-- Compatibility
+- [Compatibility](#Compatibility)
   
-  - Flight Mods
+  - [Flight Mods](#flight-mods)
 
-- Creating & Modifying Modular Flight Mods
+- [Creating & Modifying Modular Flight Mods](#creating--modifying-modular-flight-mods)
   
-  - Ensuring Compatibility
+  - [Ensuring Compatibility](#ensuring-compatibility)
   
-  - Framework Script Contents
+  - [Framework Script Contents](#framework-script-contents)
     
-    - General Settings & Multipliers
+    - [General Settings & Multipliers](#general-settings--multipliers)
     
-    - Base Numbers
+    - [Base Numbers](#base-numbers)
     
-    - Code
+    - [Code](#code)
 
-- Acknowledgements
+- [Acknowledgements](#acknowledgements)
 
 <br/>
 
