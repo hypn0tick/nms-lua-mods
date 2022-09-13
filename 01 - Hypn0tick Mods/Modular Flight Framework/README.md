@@ -4,8 +4,6 @@ A mod script and framework for No Man's Sky flight-related mods using the [AMUMS
 
 For more information on modding No Man's Sky, using AMUMSS, fixing bugs, and much more, feel free to join the [NMS Modding Discord](https://discord.gg/5Bb3pYYVyV). For LUA script examples, check out the [AMUMSS Standard Collection](https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection/tree/main/amumss-standard-collection), which includes various helpful learning examples, and the general [AMUMSS LUA Mod Script Collection](https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection).
 
-
-
 ## <p align="center">Overview</p>
 
 This AMUMSS script serves as a framework with which flight-related mods for No Man's Sky can be both created easily by mod authors, and later fine-tuned by users in the simplest possible manner.
@@ -62,19 +60,17 @@ This script should allow both mod authors and users to create and share alterati
 
 - And more!
 
-<br/><br/>
-
 ## <p align="center">Installation</p>
 
-To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, you will need to follow a few basic steps:
+<p align="center">To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, you will need to follow a few basic steps:</p>
 
-<br/><br/>
+<br/>
 
 ### <p align="center">Install Dependencies</p>
 
 The Modular Flight Framework is a .lua script that uses AMUMSS to create a usable .pak file. Ensure you have [installed AMUMSS and its dependencies](https://github.com/hypn0tick/nms-lua-mods#installing-amumss) correctly to properly build LUA script-based mods for No Man's Sky.
 
-<br/><br/>
+<br/>
 
 ### <p align="center">Download the Modular Flight Framework</p>
 
@@ -84,7 +80,7 @@ You are now ready to build LUA script-based mods for No Man's Sky!
 
 <ins>**NOTE:**</ins> The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the variant with base-game values [included in the repository](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua).
 
-<br/><br/>
+<br/>
 
 ### <p align="center">Build the Mod(s)</p>
 
@@ -92,13 +88,13 @@ Now that you have downloaded AMUMSS and the Modular Flight Framework script, tur
 
 If you would like to learn more about building and merging mods with AMUMSS, or to create patch mods, follow the [steps provided in this repository's root directory](https://github.com/hypn0tick/nms-lua-mods), read the [STEP Mods AMUMSS Guide](https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide) written by Lo2k, or reach out in the "amumss-lua" channel of the official [NMS Modding Discord](https://discord.gg/5Bb3pYYVyV).
 
-<br/><br/>
+<br/>
 
 ## <p align="center">Compatibility</p>
 
 The Modular Flight Framework script was designed with compatibility in mind. Most features can be enabled/disabled individually, allowing mods to affect different flight parameters without interfering with each other. Typically, mods that utilize many of the framework's features should be loaded by AMUMSS before most other scripts. This is so that smaller changes made by these scripts will be applied after any changes made by the Modular Flight Framework. One can ensure MFF loads before other mods by renaming the script's .lua file alphabetically. For example, rename "Hypn0tick - Modular Flight Framework.lua" to "A.lua" so that AMUMSS reads the file prior to running other scripts.
 
-<br/><br/>
+<br/>
 
 ### <p align="center">Flight Mods</p>
 
