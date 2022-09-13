@@ -10,7 +10,7 @@ This AMUMSS script serves as a framework with which flight-related mods for No M
 
 This script should allow both mod authors and users to create and share alterations to NMS's flight settings more easily than ever before. Almost every parameter controlling all aspects of flight in No Man's Sky have been mapped out into convenient variables for authors, and even simpler multipliers for users. Further in the Readme, we will go over the script's sections and main functions.
 
-### <p align="center">Features</p>
+### <p align="center"><ins>Features</ins></p>
 
 <ins>**NOTE:**</ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A [variant with vanilla values](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua) is provided in the repository.
 
@@ -59,12 +59,6 @@ This script should allow both mod authors and users to create and share alterati
   - Modify warp drive ranges & bonuses.
 
 - And more!
-
-
-
-
-
-- </p>
 
 ## <p align="center">Installation</p>
 
