@@ -7,8 +7,8 @@
 <br/>
 
 ## <p align="center">Table of Contents</p>
-<p align="center"><details>
-<summary>"Click to Show"</summary>
+<details>
+<p align="center"><summary>"Click to Show"</summary>
 
 - [Overview](#overview)
   
