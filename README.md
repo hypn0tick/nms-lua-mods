@@ -10,7 +10,7 @@
 
 <p align="justify">AMUMSS is the software responsible for turning .lua files into proper mods. It does so in a few (automated) steps:</p>
 
-1. First, it unpacks the game's (and/or other mods') .pak archives which contain .mbin files changed by a script.
+1. <p align="justify">First, it unpacks the game's (and/or other mods') .pak archives which contain .mbin files changed by a script.</p>
 
 2. Next, it uses MBINCompiler.exe to convert them into legible .exml files.
 
