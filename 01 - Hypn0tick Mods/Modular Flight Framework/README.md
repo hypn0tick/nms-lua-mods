@@ -84,7 +84,7 @@
 
 <p align="justify">Now that you have downloaded AMUMSS and the Modular Flight Framework script, turning the script into a usable mod is a very simple process. With the .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file.</p>
 
-<p align="justify">If you would like to learn more about building and merging mods with AMUMSS, or to create patch mods, follow the [steps provided in this repository's root directory](https://github.com/hypn0tick/nms-lua-mods), read the [STEP Mods AMUMSS Guide](https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide) written by Lo2k, or reach out in the "amumss-lua" channel of the official [NMS Modding Discord](https://discord.gg/5Bb3pYYVyV).</p>
+<p align="justify">If you would like to learn more about building and merging mods with AMUMSS, or to create patch mods, follow the [steps provided in this repository's root directory](https://github.com/hypn0tick/nms-lua-mods), read the <a href="https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide">STEP Mods AMUMSS Guide</a> written by Lo2k, or reach out in the "amumss-lua" channel of the official [NMS Modding Discord](https://discord.gg/5Bb3pYYVyV).</p>
 
 <br/>
 
