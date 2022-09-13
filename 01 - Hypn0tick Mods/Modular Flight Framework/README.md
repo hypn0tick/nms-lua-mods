@@ -146,7 +146,7 @@ The "general settings & multipliers" section is likely to be the only one touche
 
 ---
 
-The second section, base numbers, houses all of the default data used by the script and its modifiers. This section exists for mod authors to more easily alter these values without the need to change any code. By modifying this section (as opposed to the first), mod authors also allow their users to more easily tweak their mod's values using the multipliers in the first section without the need to create any code.
+<p align="justify">The second section, base numbers, houses all of the default data used by the script and its modifiers. This section exists for mod authors to more easily alter these values without the need to change any code. By modifying this section (as opposed to the first), mod authors also allow their users to more easily tweak their mod's values using the multipliers in the first section without the need to create any code.</p>
 
 <p align="center"><ins><b>Example Base Numbers:</b></ins></p>
 
