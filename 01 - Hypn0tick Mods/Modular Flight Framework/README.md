@@ -1,4 +1,4 @@
-# Hypn0tick Modular Flight Framework
+# Modular Flight Framework
 
 A mod script and framework for No Man's Sky flight-related mods using the [AMUMSS Framework](https://github.com/HolterPhylo/AMUMSS), a LUA script-based mod builder that can build modifications using the game's (and other mods') latest files.
 
