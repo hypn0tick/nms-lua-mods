@@ -32,23 +32,23 @@
 
 #### <p align="center">Install Dependencies</p>
 
-<p align="justify">AMUMSS uses _<a href="https://github.com/monkeyman192/MBINCompiler">MBINCompiler.exe</a>_ to compile and decompile the game's ".mbin" files to and from legible ".exml" files, which requires the <a href="https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime">.NET 5 Desktop Runtime</a> to run properly.</p>
+<p align="justify">AMUMSS uses <a href="https://github.com/monkeyman192/MBINCompiler">MBINCompiler.exe</a> to compile and decompile the game's .mbin files to and from legible .exml files, which requires the <a href="https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime">.NET 5 Desktop Runtime</a> to run properly.</p>
 
 - [Download .NET 5.0 Desktop Runtime - Windows x64 Installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-5.0.17-windows-x64-installer)
 
 - [Download .NET 5.0 Desktop Runtime - Windows x86 Installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-5.0.17-windows-x86-installer)
 
-#### Download & Update AMUMSS
+#### <p align="center">Download & Update AMUMSS</p>
 
-1. [Download the latest AMUMSS](https://github.com/HolterPhylo/AMUMSS/releases) and extract it to the folder of your choice.
+1. <p align="justify"><a href="https://github.com/HolterPhylo/AMUMSS/releases">Download the latest AMUMSS</a> and extract it to the folder of your choice.</p>
 
-2. In the AMUMSS folder, open the "BUILDMOD.bat" file.
+2. <p align="justify">In the AMUMSS folder, open the "BUILDMOD.bat" file.</p>
 
-3. When asked whether you would like to update AMUMSS, type "Y". Afterwards, press any key to close the terminal and check for updates.
+3. <p align="justify">When asked whether you would like to update AMUMSS, type "Y". Afterwards, press any key to close the terminal and check for updates.</p>
    
-   - You may need to do this multiple times if the update doesn't apply.
+   - <p align="justify">You may need to do this multiple times if the update doesn't apply.</p>
    
-   Open the "BUILDMOD.bat" file again. If it updated correctly, AMUMSS will then create a list of your game's ".pak" files and automatically download the latest MBINCombiler.exe. If everything updated correctly, you should see the terminal output something similar to the following:
+   <p align="justify">Open the "BUILDMOD.bat" file again. If it updated correctly, AMUMSS will then create a list of your game's .pak files and automatically download the latest MBINCombiler.exe. If everything updated correctly, you should see the terminal output something similar to the following:</p>
    
    <img title="" src="./00 - Assets/AMUMSS_Update.png" title="AMUMSS Update" alt="AMUMSS_Install.png" width="487" data-align="center">
 
