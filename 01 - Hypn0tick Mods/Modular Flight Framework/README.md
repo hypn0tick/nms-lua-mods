@@ -1,10 +1,10 @@
-# Modular Flight Framework
+# <p align="center">Modular Flight Framework</p>
 
 A mod script and framework for No Man's Sky flight-related mods using the [AMUMSS Framework](https://github.com/HolterPhylo/AMUMSS), a LUA script-based mod builder that can build modifications using the game's (and other mods') latest files.
 
 For more information on modding No Man's Sky, using AMUMSS, fixing bugs, and much more, feel free to join the [NMS Modding Discord](https://discord.gg/5Bb3pYYVyV). For LUA script examples, check out the [AMUMSS Standard Collection](https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection/tree/main/amumss-standard-collection), which includes various helpful learning examples, and the general [AMUMSS LUA Mod Script Collection](https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection).
 
-## Overview
+## <p align="center">Overview</p>
 
 This AMUMSS script serves as a framework with which flight-related mods for No Man's Sky can be both created easily by mod authors, and later fine-tuned by users in the simplest possible manner.
 
@@ -58,7 +58,7 @@ This script should allow both mod authors and users to create and share alterati
 
 - And more!
 
-## Installation
+## <p align="center">Installation</p>
 
 To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, you will need to follow a few basic steps:
 
@@ -80,7 +80,7 @@ Now that you have downloaded AMUMSS and the Modular Flight Framework script, tur
 
 If you would like to learn more about building and merging mods with AMUMSS, or to create patch mods, follow the [steps provided in this repository's root directory](https://github.com/hypn0tick/nms-lua-mods), read the [STEP Mods AMUMSS Guide](https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide) written by Lo2k, or reach out in the "amumss-lua" channel of the official [NMS Modding Discord](https://discord.gg/5Bb3pYYVyV).
 
-## Compatibility
+## <p align="center">Compatibility</p>
 
 The Modular Flight Framework script was designed with compatibility in mind. Most features can be enabled/disabled individually, allowing mods to affect different flight parameters without interfering with each other. Typically, mods that utilize many of the framework's features should be loaded by AMUMSS before most other scripts. This is so that smaller changes made by these scripts will be applied after any changes made by the Modular Flight Framework. One can ensure MFF loads before other mods by renaming the script's .lua file alphabetically. For example, rename "Hypn0tick - Modular Flight Framework.lua" to "A.lua" so that AMUMSS reads the file prior to running other scripts.
 
@@ -96,7 +96,7 @@ This function currently creates *minor* incompatibilities due to the way in whic
 
 <ins>**Example:**</ins> To load Shoemaker's Flight Adjustments on top of MFF's changes, simply rename "shoemakers_flight_adjustments.lua" to "Z_shoemakers_flight_adjustments.lua" or even "_shoemakers_flight_adjustments.lua" (better, as underscores load after letters).
 
-## Creating & Modifying Modular Flight Mods
+## <p align="center">Creating & Modifying Modular Flight Mods</p>
 
 Before building a Modular Flight Framework mod, you can open its .lua file to configure every aspect of flight in No Man's Sky individually. Specifics regarding the file's data & sections are included below. After making your desired changes, simply build the mod as explained above and enjoy the results in-game.
 
@@ -144,7 +144,7 @@ The final section, code, contains all of the script's logic. While I encourage u
 
 To ensure maximum compatibility with other mods, mod authors should be careful to verify that only those features used by their mod are enabled within the script's contents. By doing so, any created mods will affect only necessary files, leaving changes added by other mods intact.
 
-## Acknowledgements
+## <p align="center">Acknowledgements</p>
 
 First and foremost, I would like to thank Babscoole for reviewing my code, inspiring me with their own, and generally being an awesome person. I would also like to send my heartfelt gratitude to the team behind AMUMSS for creating such an amazing tool. Finally, I would also like to thank the following mod authors for their help, inspiration from their own mods, etc.:
 
