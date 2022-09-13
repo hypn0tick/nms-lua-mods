@@ -14,8 +14,6 @@ This script should allow both mod authors and users to create and share alterati
 
 <ins>**NOTE:**</ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A variant with vanilla values is [provided in the repository](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua).
 
-
-
 - Modular features that can be enabled/disabled individually.
 
 - Control values using multipliers (simpler) or by inputting base numbers, which will automatically be applied to the correct parameters in the game's files.
@@ -64,11 +62,11 @@ This script should allow both mod authors and users to create and share alterati
 
 To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, you will need to follow a few basic steps:
 
-### Install Dependencies
+### <p align="center">Install Dependencies</p>
 
 The Modular Flight Framework is a .lua script that uses AMUMSS to create a usable .pak file. Ensure you have [installed AMUMSS and its dependencies](https://github.com/hypn0tick/nms-lua-mods#installing-amumss) correctly to properly build LUA script-based mods for No Man's Sky.
 
-### Download the Modular Flight Framework
+### <p align="center">Download the Modular Flight Framework</p>
 
 Download the script to your AMUMSS "ModScript" folder. If you struggle to download the file, simply [copy its contents](https://raw.githubusercontent.com/hypn0tick/nms-lua-mods/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Hypn0tick%20-%20Modular%20Flight%20Framework.lua) into a new .lua file in your "ModScript" folder.
 
@@ -76,7 +74,7 @@ You are now ready to build LUA script-based mods for No Man's Sky!
 
 <ins>**NOTE:**</ins> The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the variant with base-game values [included in the repository](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua).
 
-### Build the Mod(s)
+### <p align="center">Build the Mod(s)</p>
 
 Now that you have downloaded AMUMSS and the Modular Flight Framework script, turning the script into a usable mod is a very simple process. With the .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file.
 
@@ -86,7 +84,7 @@ If you would like to learn more about building and merging mods with AMUMSS, or 
 
 The Modular Flight Framework script was designed with compatibility in mind. Most features can be enabled/disabled individually, allowing mods to affect different flight parameters without interfering with each other. Typically, mods that utilize many of the framework's features should be loaded by AMUMSS before most other scripts. This is so that smaller changes made by these scripts will be applied after any changes made by the Modular Flight Framework. One can ensure MFF loads before other mods by renaming the script's .lua file alphabetically. For example, rename "Hypn0tick - Modular Flight Framework.lua" to "A.lua" so that AMUMSS reads the file prior to running other scripts.
 
-### Flight Mods
+### <p align="center">Flight Mods</p>
 
 Of the framework's various features, the only one that causes compatibility issues is the function that modifies the base numbers that affect ship speeds, maneuverability, etc.—this is controlled by the "Enable_Flight_Changes" variable at the top of the script.
 
@@ -102,7 +100,11 @@ This function currently creates *minor* incompatibilities due to the way in whic
 
 Before building a Modular Flight Framework mod, you can open its .lua file to configure every aspect of flight in No Man's Sky individually. Specifics regarding the file's data & sections are included below. After making your desired changes, simply build the mod as explained above and enjoy the results in-game.
 
-### Framework Script Contents
+### 
+
+```
+<p align="center">Framework Script Contents</p>
+```
 
 To simplify the process of editing the script's data, it has been separated into three different sections: <ins>general settings & multipliers, base numbers, and code.</ins>
 
