@@ -10,10 +10,12 @@
 
 <br/>
 
-output:  
-  html_document:  
-    toc: true  
-    toc_float: true  
+---
+output:
+	html_document:  
+		toc: true  
+    toc_float: true
+---
 
 ## <p align="center">Table of Contents</p>
 
