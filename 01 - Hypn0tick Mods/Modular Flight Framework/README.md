@@ -174,10 +174,10 @@
 <p align="justify">The "general settings & multipliers" section is likely to be the only one touched by the vast majority of mod users. It primarily contains various booleans (true/false statements) that control the script's features, and multipliers that alter associated values.</p>
 
 <p align="center"><ins><b>Example Boolean:</b></ins></p>
-<p align="center"><img title="" src="../../00 - Assets/Example_Boolean.png" title="BooleanExample" alt="Example_Boolean.png" width="552"></p>
+<p align="center"><img title="Boolean Example" src="../../00 - Assets/Example_Boolean.png" alt="Example_Boolean.png" width="552"></p>
 
 <p align="center"><ins><b>Example Multiplier:</b></ins></p>
-<p align="center"><img title="" src="../../00 - Assets/Example_Boolean.png" title="Multiplier Example" alt="Example_Multiplier.png" width="552"></p>
+<p align="center"><img title="Multiplier Example" src="../../00 - Assets/Example_Boolean.png" alt="Example_Multiplier.png" width="552"></p>
 
 <br/>
 
@@ -191,7 +191,7 @@
 
 <p align="center"><ins><b>Example Base Numbers:</b></ins></p>
 
-<p align="center"><img title="" src="../../00 - Assets/Example_Base_Numbers.png" title="Base Number Example" alt="Example_Base_Numbers.png" width="552"></p>
+<p align="center"><img title="Base Number Example" src="../../00 - Assets/Example_Base_Numbers.png" alt="Example_Base_Numbers.png" width="552"></p>
 
 <br/>
 

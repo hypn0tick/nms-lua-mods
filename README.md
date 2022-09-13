@@ -13,18 +13,16 @@
 - [Using Script Mods](#using-script-mods)
   
   - [Installing AMUMSS](#installing-amumss)
-  
-  	- [Install Dependencies](#install-dependencies)
-  
-  	- [Download & Update AMUMSS](#download--update-amumss)
+    
+    - [Install Dependencies](#install-dependencies)
+    
+    - [Download & Update AMUMSS](#download--update-amumss)
   
   - [Building a Mod](#building-a-mod)
   
   - [Building Multiple Mods Mods](#building-multiple-mods)
   
   - [Building Patch Mods](#building-patch-mods)
-  
-  </details>
 
 <br/>
 
