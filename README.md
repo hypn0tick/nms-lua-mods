@@ -47,16 +47,16 @@ AMUMSS uses [*MBINCompiler.exe*](https://github.com/monkeyman192/MBINCompiler) t
 3. When asked whether you would like to update AMUMSS, type "Y". Afterwards, press any key to close the terminal and check for updates.
    
    - You may need to do this multiple times if the update doesn't apply.
-
-4. Open the "BUILDMOD.bat" file again. If it updated correctly, AMUMSS will then create a list of your game's ".pak" files and automatically download the latest MBINCombiler.exe. If everything updated correctly, you should see the terminal output something similar to the following:
    
-   <img title="" src="https://i.imgur.com/hAHX0Ij.png" alt="" width="487" data-align="center">
+   Open the "BUILDMOD.bat" file again. If it updated correctly, AMUMSS will then create a list of your game's ".pak" files and automatically download the latest MBINCombiler.exe. If everything updated correctly, you should see the terminal output something similar to the following:
+   
+   <img title="" src="./00 - Assets/AMUMSS_Update.png" title="AMUMSS Update" alt="AMUMSS_Install.png" width="487" data-align="center">
 
 ### Building a Mod:
 
 Now that you have downloaded AMUMSS, turning a .lua script into a usable mod is a very simple process. With the script's .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file. 
 
-When you run AMUMSS, it will ask whether to automatically copy the created .pak file to your NMS "MODS" folder and delete the "DISABLEMODS.txt" file from the game's "PCBANKS" folder. If you choose not to, simply move the newly-created file from the AMUMSS "CreatedModPAKs" folder to the game's "GAMEDATA\PCBANKS\MODS" folder and delete the "GAMEDATA\PCBANKS\DISABLEMODS.txt" file. Your game will now start with the mod enabled.<img src="assets/9a4d3dba95eced74fb310629512a186a732687ee.png" title="" alt="" data-align="center">
+When you run AMUMSS, it will ask whether to automatically copy the created .pak file to your NMS "MODS" folder and delete the "DISABLEMODS.txt" file from the game's "PCBANKS" folder. If you choose not to, simply move the newly-created file from the AMUMSS "CreatedModPAKs" folder to the game's "GAMEDATA\PCBANKS\MODS" folder and delete the "GAMEDATA\PCBANKS\DISABLEMODS.txt" file. Your game will now start with the mod enabled.<img src="./00 - Assets/Example_Move_Mod.png" title="AMUMSS Copy File Example" alt="Example_Move_Mod.png" data-align="center">
 
 ### Building Multiple Mods:
 
@@ -64,11 +64,11 @@ To build multiple mods created with the Modular Flight Framework, place them all
 
 - If any scripts require that extra assets (images, sounds, etc.) be included in the packed (.pak) file, simply place them in the AMUMSS "ModExtraFilesToInclude" directory. If any files are present in this folder, AMUMSS will first ask if you wish to include them in the created .pak file.
   
-  <img src="assets/35d8d2e155a3f3d7f538a8145d9e45eb791f941e.png" title="" alt="Example_ExtraAssets.png" data-align="center">
+  <img src="./00 - Assets/Example_Include_Assets.png" title="Include Assets Example" alt="Example_Include_Assets.png" data-align="center">
 
 - When AMUMSS detects that there are multiple .lua files in the "ModScript" folder, it will ask whether to create a combined (merged) mod, or to create individual .pak files for each script.
   
-  <img src="assets/2bf2a43f6b1311f5e6f81085ddce2044a9351608.png" title="" alt="Example_Merge.png" data-align="center">
+  <img src="./00 - Assets/Example_Merged_Mod.png" title="Combined Mod Example" alt="Example_Merged_Mod.png" data-align="center">
 
 - When merging mods, the terminal will also ask you some questions to determine how the merged mod will be named. The file's name can be changed after building the .pak file.
   
@@ -84,7 +84,7 @@ When building your .lua script files into playable mods, AMUMSS has the option t
 
 - After running "BUILDMOD.bat", the terminal will ask you whether or not to create a "patch pak", which is a combined mod built using files provided by different mods' .pak files.
   
-  <img src="assets/54f62614ccce7e80fb8a953cb78034b30043d4cd.png" title="" alt="Example_Patch_Mod.png" data-align="center">
+  <img src="./00 - Assets/Example_Patched_Mod.png" title="Patch Mod Example" alt="Example_Patched_Mod.png" data-align="center">
 
 - Once the mod's .pak file has been built, copy the created file from the "CreatedModPAKs" directory to the game's "PCBANKS\MODS" folder.
   
