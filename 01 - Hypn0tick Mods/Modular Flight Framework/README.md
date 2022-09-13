@@ -12,7 +12,7 @@ This AMUMSS script serves as a framework with which flight-related mods for No M
 
 This script should allow both mod authors and users to create and share alterations to NMS's flight settings more easily than ever before. Almost every parameter controlling all aspects of flight in No Man's Sky have been mapped out into convenient variables for authors, and even simpler multipliers for users. Further in the Readme, we will go over the script's sections and main functions.
 
-<br/><br/>
+<br/>
 
 ### <p align="center">Features</p>
 
