@@ -59,7 +59,7 @@
 <p align="justify">When you run AMUMSS, it will ask whether to automatically copy the created .pak file to your NMS "MODS" folder and delete the "DISABLEMODS.txt" file from the game's "PCBANKS" folder. If you choose not to, simply move the newly-created file from the AMUMSS "CreatedModPAKs" folder to the game's "GAMEDATA\PCBANKS\MODS" folder and delete the "GAMEDATA\PCBANKS\DISABLEMODS.txt" file. Your game will now start with the mod enabled.</p>
 <p align="center"><img src="./00 - Assets/Example_Move_Mod.png" title="AMUMSS Copy File Example" alt="Example_Move_Mod.png" data-align="center"></p>
 
-### Building Multiple Mods:
+### <p align="center">Building Multiple Mods:</p>
 
 To build multiple mods created with the Modular Flight Framework, place them all inside the "ModScript" folder. If you have multiple mods that edit the same values, rename the scripts alphabetically so that those you with changes you wish to take priority are loaded last. Then, run "BUILDMOD.bat" and answer any questions asked by the terminal prompt.
 
