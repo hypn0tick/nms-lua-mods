@@ -7,8 +7,9 @@
 <br/>
 
 ## <p align="center">Table of Contents</p>
-<details>
-<summary>"Click to Display"</summary>
+<p align="center"><details>
+<summary>"Click to Show"</summary>
+
 - [Overview](#overview)
   
   - [Features](#features)
@@ -37,7 +38,7 @@
     
     - [Code](#code)
 
-- [Acknowledgements](#acknowledgements
+- [Acknowledgements](#acknowledgements)
 </details>
 
 <br/>
