@@ -90,37 +90,37 @@ If you would like to learn more about building and merging mods with AMUMSS, or 
 
 ## <p align="center">Compatibility</p>
 
-The Modular Flight Framework script was designed with compatibility in mind. Most features can be enabled/disabled individually, allowing mods to affect different flight parameters without interfering with each other. Typically, mods that utilize many of the framework's features should be loaded by AMUMSS before most other scripts. This is so that smaller changes made by these scripts will be applied after any changes made by the Modular Flight Framework. One can ensure MFF loads before other mods by renaming the script's .lua file alphabetically. For example, rename "Hypn0tick - Modular Flight Framework.lua" to "A.lua" so that AMUMSS reads the file prior to running other scripts.
+<p align="justify">The Modular Flight Framework script was designed with compatibility in mind. Most features can be enabled/disabled individually, allowing mods to affect different flight parameters without interfering with each other. Typically, mods that utilize many of the framework's features should be loaded by AMUMSS before most other scripts. This is so that smaller changes made by these scripts will be applied after any changes made by the Modular Flight Framework. One can ensure MFF loads before other mods by renaming the script's .lua file alphabetically. For example, rename "Hypn0tick - Modular Flight Framework.lua" to "A.lua" so that AMUMSS reads the file prior to running other scripts.</p>
 
 <br/>
 
 ### <p align="center">Flight Mods</p>
 
-Of the framework's various features, the only one that causes compatibility issues is the function that modifies the base numbers that affect ship speeds, maneuverability, etc.—this is controlled by the "Enable_Flight_Changes" variable at the top of the script.
+<p align="justify">Of the framework's various features, the only one that causes compatibility issues is the function that modifies the base numbers that affect ship speeds, maneuverability, etc.—this is controlled by the "Enable_Flight_Changes" variable at the top of the script.</p>
 
-This function currently creates *minor* incompatibilities due to the way in which the script modifies these variables. Instead of editing existing values, the script re-creates the entire parameter block after removing the originals.
+<p align="justify">This function currently creates *minor* incompatibilities due to the way in which the script modifies these variables. Instead of editing existing values, the script re-creates the entire parameter block after removing the originals.</p>
 
-- Therefore, running the script with this feature enabled <ins>after other scripts have modified these values</ins> will result in this script's values being used.
+- <p align="justify">Therefore, running the script with this feature enabled <ins>after other scripts have modified these values</ins> will result in this script's values being used.</p>
 
-- If you wish to have another mod affect these variables, ensure that the script loads and runs <ins>**after the Modular Flight Framework**</ins>. You can do this by re-naming the script's .lua file alphabetically so that it loads after MSS.
+- <p align="justify">If you wish to have another mod affect these variables, ensure that the script loads and runs <ins>**after the Modular Flight Framework**</ins>. You can do this by re-naming the script's .lua file alphabetically so that it loads after MSS.</p>
 
-<ins>**Example:**</ins> To load Shoemaker's Flight Adjustments on top of MFF's changes, simply rename "shoemakers_flight_adjustments.lua" to "Z_shoemakers_flight_adjustments.lua" or even "_shoemakers_flight_adjustments.lua" (better, as underscores load after letters).
+<p align="justify"><ins>**Example:**</ins> To load Shoemaker's Flight Adjustments on top of MFF's changes, simply rename "shoemakers_flight_adjustments.lua" to "Z_shoemakers_flight_adjustments.lua" or even "_shoemakers_flight_adjustments.lua" (better, as underscores load after letters).</p>
 
 <br/>
 
 ## <p align="center">Creating & Modifying Modular Flight Mods</p>
 
-Before building a Modular Flight Framework mod, you can open its .lua file to configure every aspect of flight in No Man's Sky individually. Specifics regarding the file's data & sections are included below. After making your desired changes, simply build the mod as explained above and enjoy the results in-game.
+<p align="justify">Before building a Modular Flight Framework mod, you can open its .lua file to configure every aspect of flight in No Man's Sky individually. Specifics regarding the file's data & sections are included below. After making your desired changes, simply build the mod as explained above and enjoy the results in-game.</p>
 
 ### <p align="center">Ensuring Compatibility</p>
 
-To ensure maximum compatibility with other mods, mod authors should be careful to verify that only those features used by their mod are enabled within the script's contents. By doing so, any created mods will affect only necessary files, leaving changes added by other mods intact.
+<p align="justify">To ensure maximum compatibility with other mods, mod authors should be careful to verify that only those features used by their mod are enabled within the script's contents. By doing so, any created mods will affect only necessary files, leaving changes added by other mods intact.</p>
 
 <br/>
 
 ### <p align="center">Framework Script Contents</p>
 
-To simplify the process of editing the script's data, it has been separated into three different sections: <ins>general settings & multipliers, base numbers, and code.</ins>
+<p align="justify">To simplify the process of editing the script's data, it has been separated into three different sections: <ins>general settings & multipliers, base numbers, and code.</ins></p>
 
 <br/>
 
@@ -130,7 +130,7 @@ To simplify the process of editing the script's data, it has been separated into
 
 ---
 
-The "general settings & multipliers" section is likely to be the only one touched by the vast majority of mod users. It primarily contains various booleans (true/false statements) that control the script's features, and multipliers that alter associated values.
+<p align="justify">The "general settings & multipliers" section is likely to be the only one touched by the vast majority of mod users. It primarily contains various booleans (true/false statements) that control the script's features, and multipliers that alter associated values.</p>
 
 <p align="center"><ins><b>Example Boolean:</b></ins></p>
 <p align="center"><img title="" src="../../00 - Assets/Example_Boolean.png" title="BooleanExample" alt="Example_Boolean.png" width="552"></p>
@@ -160,13 +160,13 @@ The "general settings & multipliers" section is likely to be the only one touche
 
 ---
 
-The final section, code, contains all of the script's logic. While I encourage users and mod authors to peruse the code for the sake of understanding (and potentially help to find any bugs I may have overlooked), changes to this section of the script should be largely unnecessary as everything is controlled by the prior sections.
+<p align="justify">The final section, code, contains all of the script's logic. While I encourage users and mod authors to peruse the code for the sake of understanding (and potentially help to find any bugs I may have overlooked), changes to this section of the script should be largely unnecessary as everything is controlled by the prior sections.</p>
 
 <br/>
 
 ## <p align="center">Acknowledgements</p>
 
-First and foremost, I would like to thank Babscoole for reviewing my code, inspiring me with their own, and generally being an awesome person. I would also like to send my heartfelt gratitude to the team behind AMUMSS for creating such an amazing tool. Finally, I would also like to thank the following mod authors for their help, inspiration from their own mods, etc.:
+<p align="justify">First and foremost, I would like to thank Babscoole for reviewing my code, inspiring me with their own, and generally being an awesome person. I would also like to send my heartfelt gratitude to the team behind AMUMSS for creating such an amazing tool. Finally, I would also like to thank the following mod authors for their help, inspiration from their own mods, etc.:</p>
 
 - Babscoole
 
