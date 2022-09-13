@@ -1,8 +1,8 @@
 # <p align="center">Modular Flight Framework</p>
 
-<p align="justify">A mod script and framework for No Man's Sky flight-related mods using the [AMUMSS Framework](https://github.com/HolterPhylo/AMUMSS), a LUA script-based mod builder that can build modifications using the game's (and other mods') latest files.</p>
+<p align="justify">A mod script and framework for No Man's Sky flight-related mods using the <a href="https://github.com/HolterPhylo/AMUMSS">AMUMSS Framework</a>, a LUA script-based mod builder that can build modifications using the game's (and other mods') latest files.</p>
 
-<p align="justify">For more information on modding No Man's Sky, using AMUMSS, fixing bugs, and much more, feel free to join the [NMS Modding Discord](https://discord.gg/5Bb3pYYVyV). For LUA script examples, check out the [AMUMSS Standard Collection](https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection/tree/main/amumss-standard-collection), which includes various helpful learning examples, and the general [AMUMSS LUA Mod Script Collection](https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection).</p>
+<p align="justify">For more information on modding No Man's Sky, using AMUMSS, fixing bugs, and much more, feel free to join the <a href="https://discord.gg/5Bb3pYYVyV">NMS Modding Discord</a>. For LUA script examples, check out the <a href="https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection/tree/main/amumss-standard-collection">AMUMSS Standard Collection</a>, which includes various helpful learning examples, and the general <a href="https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection">AMUMSS LUA Mod Script Collection</a>.</p>
 
 ## <p align="center">Overview</p>
 
@@ -14,7 +14,7 @@
 
 ### <p align="center">Features</p>
 
-<p align="justify"><ins>**NOTE:**</ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A variant with vanilla values is [provided in the repository](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua).</p>
+<p align="justify"><ins>**NOTE:**</ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A variant with vanilla values is <a href="https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua">provided in the repository</a>.</p>
 
 - Modular features that can be enabled/disabled individually.
 
@@ -68,15 +68,15 @@
 
 ### <p align="center">Install Dependencies</p>
 
-<p align="justify">The Modular Flight Framework is a .lua script that uses AMUMSS to create a usable .pak file. Ensure you have [installed AMUMSS and its dependencies](https://github.com/hypn0tick/nms-lua-mods#installing-amumss) correctly to properly build LUA script-based mods for No Man's Sky.</p>
+<p align="justify">The Modular Flight Framework is a .lua script that uses AMUMSS to create a usable .pak file. Ensure you have correctly <a href="https://github.com/hypn0tick/nms-lua-mods#installing-amumss">installed AMUMSS and its dependencies</a> correctly to properly build LUA script-based mods for No Man's Sky.</p>
 
 <br/>
 
 ### <p align="center">Download the Modular Flight Framework</p>
 
-<p align="justify">Download the script to your AMUMSS "ModScript" folder. If you struggle to download the file, simply [copy its contents](https://raw.githubusercontent.com/hypn0tick/nms-lua-mods/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Hypn0tick%20-%20Modular%20Flight%20Framework.lua) into a new .lua file in your "ModScript" folder. You are now ready to build LUA script-based mods for No Man's Sky!</p>
+<p align="justify">Download the script to your AMUMSS "ModScript" folder. If you struggle to download the file, simply <a href="https://raw.githubusercontent.com/hypn0tick/nms-lua-mods/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Hypn0tick%20-%20Modular%20Flight%20Framework.lua">copy its contents</a> into a new .lua file in your "ModScript" folder. You are now ready to build LUA script-based mods for No Man's Sky!</p>
 
-<p align="justify"><ins><b>NOTE:</b></ins> The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the variant with base-game values [included in the repository](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua).</p>
+<p align="justify"><ins><b>NOTE:</b></ins> The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the variant with base-game values <a href="https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua">included in the repository</a>.</p>
 
 <br/>
 
@@ -84,7 +84,7 @@
 
 <p align="justify">Now that you have downloaded AMUMSS and the Modular Flight Framework script, turning the script into a usable mod is a very simple process. With the .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file.</p>
 
-<p align="justify">If you would like to learn more about building and merging mods with AMUMSS, or to create patch mods, follow the [steps provided in this repository's root directory](https://github.com/hypn0tick/nms-lua-mods), read the <a href="https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide">STEP Mods AMUMSS Guide</a> written by Lo2k, or reach out in the "amumss-lua" channel of the official [NMS Modding Discord](https://discord.gg/5Bb3pYYVyV).</p>
+<p align="justify">If you would like to learn more about building and merging mods with AMUMSS, or to create patch mods, follow the steps provided <a href="https://github.com/hypn0tick/nms-lua-mods">in this repository's root directory</a>, read the <a href="https://stepmodifications.org/wiki/NoMansSky:AMUMSS_Guide">STEP Mods AMUMSS Guide</a>, written by Lo2k, or reach out in the "amumss-lua" channel of the official <a href="https://discord.gg/5Bb3pYYVyV">NMS Modding Discord</a>.</p>
 
 <br/>
 
