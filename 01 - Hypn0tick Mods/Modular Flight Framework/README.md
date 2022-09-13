@@ -4,6 +4,8 @@
 
 <p align="justify">For more information on modding No Man's Sky, using AMUMSS, fixing bugs, and much more, feel free to join the <a href="https://discord.gg/5Bb3pYYVyV">NMS Modding Discord</a>. For LUA script examples, check out the <a href="https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection/tree/main/amumss-standard-collection">AMUMSS Standard Collection</a>, which includes various helpful learning examples, and the general <a href="https://github.com/MetaIdea/nms-amumss-lua-mod-script-collection">AMUMSS LUA Mod Script Collection</a>.</p>
 
+<br/>
+
 ## <p align="center">Overview</p>
 
 <p align="justify">This AMUMSS script serves as a framework with which flight-related mods for No Man's Sky can be both created easily by mod authors, and later fine-tuned by users in the simplest possible manner.</p>
