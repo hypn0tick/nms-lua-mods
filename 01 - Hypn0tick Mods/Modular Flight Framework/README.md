@@ -14,7 +14,9 @@ This script should allow both mod authors and users to create and share alterati
 
 <ins>**NOTE:**</ins> The default version of the script enabled most of the features and changes have been made to some base values. All changes can be easily configured in the file. A [variant with vanilla values](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua) is provided in the repository.
 
-- <p align="center">Modular features that can be enabled/disabled individually.
+<p align="center">
+
+- Modular features that can be enabled/disabled individually.
 
 - Control values using multipliers (simpler) or by inputting base numbers, which will automatically be applied to the correct parameters in the game's files.
 
@@ -56,9 +58,13 @@ This script should allow both mod authors and users to create and share alterati
   
   - Modify warp drive ranges & bonuses.
 
-- And more!</p>
+- And more!
 
-- 
+
+
+
+
+- </p>
 
 ## <p align="center">Installation</p>
 
