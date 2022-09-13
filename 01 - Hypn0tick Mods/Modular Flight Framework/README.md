@@ -104,6 +104,8 @@ Before building a Modular Flight Framework mod, you can open its .lua file to co
 
 To simplify the process of editing the script's data, it has been separated into three different sections: <ins>general settings & multipliers, base numbers, and code.</ins>
 
+---
+
 #### General Settings & Multipliers
 
 ---
@@ -118,6 +120,8 @@ The "general settings & multipliers" section is likely to be the only one touche
 
 <img title="" src="../../00 - Assets/Example_Boolean.png" title="Multiplier Example" alt="Example_Multiplier.png" width="552">
 
+---
+
 #### Base Numbers
 
 ---
@@ -127,6 +131,8 @@ The second section, base numbers, houses all of the default data used by the scr
 **Example Base Numbers:**
 
 <img title="" src="../../00 - Assets/Example_Base_Numbers.png" title="Base Number Example" alt="Example_Base_Numbers.png" width="552">
+
+---
 
 #### Code
 
