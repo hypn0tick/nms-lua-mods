@@ -112,7 +112,7 @@ This function currently creates *minor* incompatibilities due to the way in whic
 
 Before building a Modular Flight Framework mod, you can open its .lua file to configure every aspect of flight in No Man's Sky individually. Specifics regarding the file's data & sections are included below. After making your desired changes, simply build the mod as explained above and enjoy the results in-game.
 
-### Ensuring Compatibility
+### <p align="center">Ensuring Compatibility</p>
 
 To ensure maximum compatibility with other mods, mod authors should be careful to verify that only those features used by their mod are enabled within the script's contents. By doing so, any created mods will affect only necessary files, leaving changes added by other mods intact.
 
