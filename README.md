@@ -52,7 +52,7 @@
    
    <img title="" src="./00 - Assets/AMUMSS_Update.png" title="AMUMSS Update" alt="AMUMSS_Install.png" width="487" data-align="center">
 
-### <p align="justify">Building a Mod:</p>
+### <p align="center">Building a Mod:</p>
 
 <p align="justify">Now that you have downloaded AMUMSS, turning a .lua script into a usable mod is a very simple process. With the script's .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file.</p>
 
