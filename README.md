@@ -51,6 +51,8 @@
 4. <p align="justify">Open the "BUILDMOD.bat" file again. If it updated correctly, AMUMSS will then create a list of your game's .pak files and automatically download the latest MBINCombiler.exe. If everything updated correctly, you should see the terminal output something similar to the following:</p>
    
    <img title="" src="./00 - Assets/AMUMSS_Update.png" title="AMUMSS Update" alt="AMUMSS_Install.png" width="487" data-align="center">
+   
+<br/>
 
 ### <p align="center">Building a Mod:</p>
 
@@ -59,6 +61,8 @@
 <p align="justify">When you run AMUMSS, it will ask whether to automatically copy the created .pak file to your NMS "MODS" folder and delete the "DISABLEMODS.txt" file from the game's "PCBANKS" folder. If you choose not to, simply move the newly-created file from the AMUMSS "CreatedModPAKs" folder to the game's "GAMEDATA\PCBANKS\MODS" folder and delete the "GAMEDATA\PCBANKS\DISABLEMODS.txt" file. Your game will now start with the mod enabled.</p>
 
 <img src="./00 - Assets/Example_Move_Mod.png" title="AMUMSS Copy File Example" alt="Example_Move_Mod.png" data-align="center">
+
+<br/>
 
 ### <p align="center">Building Multiple Mods:</p>
 
@@ -77,6 +81,8 @@
   - <p align="justify">If you included any packed (.pak) mods in your "ModScript" folder, AMUMSS will not give you the option to select a naming scheme.</p>
 
 - <p align="justify">Finally, AMUMSS will ask whether to copy the created mod's .pak file into the game's "PCBANKS\MODS" folder and delete "DISABLEMODS.txt". After answering, it will begin building the mod.</p>
+
+<br/>
 
 ### <p align="center">Building Patch Mods</p>
 

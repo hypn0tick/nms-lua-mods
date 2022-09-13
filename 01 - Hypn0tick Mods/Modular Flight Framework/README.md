@@ -7,6 +7,7 @@
 <br/>
 
 ## <p align="center">Table of Contents</p>
+
 <details>
 <summary>Click to Expand</summary>
 
@@ -39,7 +40,8 @@
     - [Code](#code)
 
 - [Acknowledgements](#acknowledgements)
-</details>
+  
+  </details>
 
 <br/>
 
