@@ -74,9 +74,7 @@ The Modular Flight Framework is a .lua script that uses AMUMSS to create a usabl
 
 ### <p align="center">Download the Modular Flight Framework</p>
 
-Download the script to your AMUMSS "ModScript" folder. If you struggle to download the file, simply [copy its contents](https://raw.githubusercontent.com/hypn0tick/nms-lua-mods/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Hypn0tick%20-%20Modular%20Flight%20Framework.lua) into a new .lua file in your "ModScript" folder.
-
-You are now ready to build LUA script-based mods for No Man's Sky!
+Download the script to your AMUMSS "ModScript" folder. If you struggle to download the file, simply [copy its contents](https://raw.githubusercontent.com/hypn0tick/nms-lua-mods/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Hypn0tick%20-%20Modular%20Flight%20Framework.lua) into a new .lua file in your "ModScript" folder. You are now ready to build LUA script-based mods for No Man's Sky!
 
 <ins>**NOTE:**</ins> The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the variant with base-game values [included in the repository](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua).
 
