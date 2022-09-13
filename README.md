@@ -12,27 +12,27 @@
 
 1. <p align="justify">First, it unpacks the game's (and/or other mods') .pak archives which contain .mbin files changed by a script.</p>
 
-2. Next, it uses MBINCompiler.exe to convert them into legible .exml files.
+2. <p align="justify">Next, it uses MBINCompiler.exe to convert them into legible .exml files.
 
-3. Then, it modifies these files according to instructions provided by the .lua files it finds in the "ModScript" folder.
+3. <p align="justify">Then, it modifies these files according to instructions provided by the .lua files it finds in the "ModScript" folder.</p>
 
-4. Finally, it will use MBINCompiler.exe to convert them back into the .mbin files read by the game, and re-archives them into .pak files.
+4. <p align="justify">Finally, it will use MBINCompiler.exe to convert them back into the .mbin files read by the game, and re-archives them into .pak files.</p>
 
-This approach is extremely beneficial in many ways. For example, it allows multiple script-based mods to alter the same files while ensuring compatibility with each other; will work across game updates (for the most part), making the same changes to the latest game files; and allows users to tweak and customize scripts to their liking.
+<p align="justify">This approach is extremely beneficial in many ways. For example, it allows multiple script-based mods to alter the same files while ensuring compatibility with each other; will work across game updates (for the most part), making the same changes to the latest game files; and allows users to tweak and customize scripts to their liking.</p>
 
-## Using Script Mods
+## <p align="center">Using Script Mods</p>
 
-If you are simply looking to install a mod created with AMUMSS **and do not have any conflicting packed (.pak) mods installed** in your NMS mod folder (No Man's Sky\GAMEDATA\PCBANKS\MODS) that edit the same files, I recommend simply downloading the .pak file provided by the mod author and using it as-is.
+<p align="justify">If you are simply looking to install a mod created with AMUMSS <b>and do not have any conflicting packed (.pak) mods installed</b> in your NMS mod folder (No Man's Sky\GAMEDATA\PCBANKS\MODS) that edit the same files, I recommend simply downloading the .pak file provided by the mod author and using it as-is.</p>
 
-If you are looking to fine-tune or otherwise modify the values of a mod created with AMUMSS, to ensure compatibility between mods, or to create your own script(s), you will need to download and utilize the [AMUMSS Framework](https://github.com/HolterPhylo/AMUMSS), as described below. Once you have, place any script mods you wish to build or merge into the "ModScript" folder and run the "BUILDMOD.bat" file to build your mod's .pak file.
+<p align="justify">If you are looking to fine-tune or otherwise modify the values of a mod created with AMUMSS, to ensure compatibility between mods, or to create your own script(s), you will need to download and utilize the <a href="https://github.com/HolterPhylo/AMUMSS">AMUMSS Framework</a>, as described below. Once you have, place any script mods you wish to build or merge into the "ModScript" folder and run the "BUILDMOD.bat" file to build your mod's .pak file.</p>
 
-### Installing AMUMSS
+### <p align="center">Installing AMUMSS</p>
 
-To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, you will need to follow a few basic steps:
+<p align="justify">To begin creating, modifying, and/or building LUA-based mods for No Man's Sky, you will need to follow a few basic steps:</p>
 
-#### Install Dependencies
+#### <p align="center">Install Dependencies</p>
 
-AMUMSS uses [*MBINCompiler.exe*](https://github.com/monkeyman192/MBINCompiler) to compile and decompile the game's ".mbin" files to and from legible ".exml" files, which requires the [.NET 5 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime) to run properly.
+<p align="justify">AMUMSS uses _<a href="https://github.com/monkeyman192/MBINCompiler">MBINCompiler.exe</a>_ to compile and decompile the game's ".mbin" files to and from legible ".exml" files, which requires the <a href="https://dotnet.microsoft.com/en-us/download/dotnet/5.0/runtime">.NET 5 Desktop Runtime</a> to run properly.</p>
 
 - [Download .NET 5.0 Desktop Runtime - Windows x64 Installer](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-5.0.17-windows-x64-installer)
 
