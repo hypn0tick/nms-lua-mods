@@ -20,12 +20,12 @@
   	- [Install Dependencies](#install-dependencies)
   
   	- [Download & Update AMUMSS](#download--update-amumss)
-
-- [Building a Mod](#building-a-mod)
   
-- [Building Multiple Mods Mods](#building-multiple-mods)
-
-- [Building Patch Mods](#building-patch-mods)
+  - [Building a Mod](#building-a-mod)
+  
+  - [Building Multiple Mods Mods](#building-multiple-mods)
+  
+  - [Building Patch Mods](#building-patch-mods)
   
   </details>
 
