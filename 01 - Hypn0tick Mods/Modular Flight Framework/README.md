@@ -1,6 +1,5 @@
 ---
 
----
 
 # <p align="center">Modular Flight Framework</p>
 
