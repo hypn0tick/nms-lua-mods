@@ -112,6 +112,10 @@ This function currently creates *minor* incompatibilities due to the way in whic
 
 Before building a Modular Flight Framework mod, you can open its .lua file to configure every aspect of flight in No Man's Sky individually. Specifics regarding the file's data & sections are included below. After making your desired changes, simply build the mod as explained above and enjoy the results in-game.
 
+### Ensuring Compatibility
+
+To ensure maximum compatibility with other mods, mod authors should be careful to verify that only those features used by their mod are enabled within the script's contents. By doing so, any created mods will affect only necessary files, leaving changes added by other mods intact.
+
 ### <p align="center">Framework Script Contents</p>
 
 To simplify the process of editing the script's data, it has been separated into three different sections: <ins>general settings & multipliers, base numbers, and code.</ins>
@@ -157,12 +161,6 @@ The second section, base numbers, houses all of the default data used by the scr
 ---
 
 The final section, code, contains all of the script's logic. While I encourage users and mod authors to peruse the code for the sake of understanding (and potentially help to find any bugs I may have overlooked), changes to this section of the script should be largely unnecessary as everything is controlled by the prior sections.
-
-<br/>
-
-### <p align="center">Ensuring Compatibility</p>
-
-To ensure maximum compatibility with other mods, mod authors should be careful to verify that only those features used by their mod are enabled within the script's contents. By doing so, any created mods will affect only necessary files, leaving changes added by other mods intact.
 
 <br/>
 
