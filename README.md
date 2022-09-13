@@ -8,9 +8,6 @@
 
 ## <p align="center">Table of Contents</p>
 
-<details>
-<summary>Click to Expand</summary>
-
 - [What is AMUMSS?](#what-is-amumss)
 
 - [Using Script Mods](#using-script-mods)
