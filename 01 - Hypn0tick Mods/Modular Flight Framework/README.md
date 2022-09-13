@@ -102,7 +102,7 @@
 
 - <p align="justify">Therefore, running the script with this feature enabled <ins>after other scripts have modified these values</ins> will result in MFF's values being used.</p>
 
-- <p align="justify">If you wish to have another mod affect these variables, ensure that the script loads and runs <ins>**after the Modular Flight Framework**</ins>. You can do this by re-naming the script's .lua file alphabetically so that it loads after MSS.</p>
+- <p align="justify">If you wish to have another mod affect these variables, ensure that the script loads and runs <ins><b>after the Modular Flight Framework</b></ins>. You can do this by re-naming the script's .lua file alphabetically so that it loads after MSS.</p>
 
 <p align="justify"><ins><b>Example:</b></ins> To load Shoemaker's Flight Adjustments on top of MFF's changes, simply rename "shoemakers_flight_adjustments.lua" to "Z_shoemakers_flight_adjustments.lua" or even "_shoemakers_flight_adjustments.lua" (better, as underscores load after letters).</p>
 
