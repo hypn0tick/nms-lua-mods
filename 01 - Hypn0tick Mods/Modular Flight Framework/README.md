@@ -6,7 +6,7 @@
 
 <br/>
 
-## Table of Contents
+## <p align="center">Table of Contents</p>
 
 - [Overview](#overview)
   
