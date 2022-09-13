@@ -31,6 +31,9 @@ Instructions for each section have been included preceding the same.
 Enable_Flight_Changes               =   true    --  This variable controls the main function of the script: re-writing the parameter blocks that control ship speeds.
                                                 --  It is included to allow mods using only a subset of this script's features to maintain compatibility with other mods using this framework or otherwise altering the same core parameters.
 
+Enable_Tech_Changes                 =   true    --  This variable determines whether the script will enable certain technology modules to be used on organic (living) ships.
+                                                --  This includes modules such as the economy scanner, emergency warp, etc.
+
 Disable_Flight_Assist               =   true    --  When set to "true", the script will disable most automatic brake settings that act as an artificial "flight assist".
                                                 --  This makes it so that ships will maintain their momentum while flying in space, similar to "Elite Dangerous".
                                                 --  Note: This will only affect space travel and combat, but not planetary flight or atmospheric combat.
@@ -1683,7 +1686,7 @@ if Freighter_Spawn_Capital_First then
         ["EXML_CHANGE_TABLE"] =
         {
             {
-                ["PRECEDING_KEY_WORDS"] = "AmbientSpawns",
+                ["PRECEDING_KEY_WORDS"] = {"AmbientSpawns"},
                 ["VALUE_CHANGE_TABLE"]  = 
                 {
                     {"WarpIn","True"},  -- Default: False
@@ -1694,6 +1697,131 @@ if Freighter_Spawn_Capital_First then
                 ["VALUE_CHANGE_TABLE"]  = 
                 {
                     {"AIShipRole","CapitalFreighter"},  -- Default: Freighter
+                },
+            },
+        }
+    }
+end
+
+if Enable_Tech_Changes then
+    PropertyTable[#PropertyTable +1 ] =
+    {
+        ["MBIN_FILE_SOURCE"] = 
+        { 
+            [[METADATA/REALITY/TABLES/NMS_REALITY_GCTECHNOLOGYTABLE.MBIN]],               
+        },      
+        ["EXML_CHANGE_TABLE"] =
+        {
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","SHIPROCKETS","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","SHIPSCAN_ECON","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","SHIPSCAN_COMBAT","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","UT_QUICKWARP","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","SHIP_TELEPORT","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","UT_ROCKETS","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","PHOTONIX_CORE","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","SHIPSHOTGUN","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","T_SHIPSHOT","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","UT_SHIPSHOT","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","SHIPMINIGUN","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","T_SHIPMINI","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","UT_SHIPMINI","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","SHIPPLASMA","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","T_SHIPBLOB","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
+                },
+            },
+            {
+                ["SPECIAL_KEY_WORDS"] = {"ID","UT_SHIPBLOB","Category","GcTechnologyCategory.xml"},
+                ["VALUE_CHANGE_TABLE"]  = 
+                {
+                    {"TechnologyCategory","AllShips"},  -- Default: False
                 },
             },
         }
