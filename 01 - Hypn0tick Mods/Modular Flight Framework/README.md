@@ -1,3 +1,7 @@
+---
+
+---
+
 # <p align="center">Modular Flight Framework</p>
 
 <p align="justify">A mod script and framework for No Man's Sky flight-related mods using the <a href="https://github.com/HolterPhylo/AMUMSS">AMUMSS Framework</a>, a LUA script-based mod builder that can build modifications using the game's (and other mods') latest files.</p>
@@ -6,7 +10,10 @@
 
 <br/>
 
-
+output:  
+  html_document:  
+    toc: true  
+    toc_float: true  
 
 ## <p align="center">Table of Contents</p>
 
