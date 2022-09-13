@@ -106,7 +106,7 @@ To simplify the process of editing the script's data, it has been separated into
 
 ---
 
-#### General Settings & Multipliers
+#### <p align="center">General Settings & Multipliers</p>
 
 ---
 
@@ -122,7 +122,7 @@ The "general settings & multipliers" section is likely to be the only one touche
 
 ---
 
-#### Base Numbers
+#### <p align="center">Base Numbers</p>
 
 ---
 
@@ -134,7 +134,7 @@ The second section, base numbers, houses all of the default data used by the scr
 
 ---
 
-#### Code
+#### <p align="center">Code</p>
 
 ---
 
