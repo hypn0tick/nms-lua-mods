@@ -6,6 +6,40 @@
 
 <br/>
 
+## Table of Contents
+
+- [Overview](#overview)
+  
+  - [Features](#features)
+
+- [Installation](#installation)
+  
+  - Install Dependencies
+  
+  - Download the Modular Flight Framework
+  
+  - Build the Mod(s)
+
+- Compatibility
+  
+  - Flight Mods
+
+- Creating & Modifying Modular Flight Mods
+  
+  - Ensuring Compatibility
+  
+  - Framework Script Contents
+    
+    - General Settings & Multipliers
+    
+    - Base Numbers
+    
+    - Code
+
+- Acknowledgements
+
+<br/>
+
 ## <p align="center">Overview</p>
 
 <p align="justify">This AMUMSS script serves as a framework with which flight-related mods for No Man's Sky can be both created easily by mod authors, and later fine-tuned by users in the simplest possible manner.</p>
