@@ -57,36 +57,37 @@
 <p align="justify">Now that you have downloaded AMUMSS, turning a .lua script into a usable mod is a very simple process. With the script's .lua file in your AMUMSS "ModScript" folder, simply run "BUILDMOD.bat" to create the mod's .pak file.</p>
 
 <p align="justify">When you run AMUMSS, it will ask whether to automatically copy the created .pak file to your NMS "MODS" folder and delete the "DISABLEMODS.txt" file from the game's "PCBANKS" folder. If you choose not to, simply move the newly-created file from the AMUMSS "CreatedModPAKs" folder to the game's "GAMEDATA\PCBANKS\MODS" folder and delete the "GAMEDATA\PCBANKS\DISABLEMODS.txt" file. Your game will now start with the mod enabled.</p>
-<p align="center"><img src="./00 - Assets/Example_Move_Mod.png" title="AMUMSS Copy File Example" alt="Example_Move_Mod.png" data-align="center"></p>
+
+<img src="./00 - Assets/Example_Move_Mod.png" title="AMUMSS Copy File Example" alt="Example_Move_Mod.png" data-align="center">
 
 ### <p align="center">Building Multiple Mods:</p>
 
-To build multiple mods created with the Modular Flight Framework, place them all inside the "ModScript" folder. If you have multiple mods that edit the same values, rename the scripts alphabetically so that those you with changes you wish to take priority are loaded last. Then, run "BUILDMOD.bat" and answer any questions asked by the terminal prompt.
+<p align="justify">To build multiple mods created with the Modular Flight Framework, place them all inside the "ModScript" folder. If you have multiple mods that edit the same values, rename the scripts alphabetically so that those you with changes you wish to take priority are loaded last. Then, run "BUILDMOD.bat" and answer any questions asked by the terminal prompt.</p>
 
-- If any scripts require that extra assets (images, sounds, etc.) be included in the packed (.pak) file, simply place them in the AMUMSS "ModExtraFilesToInclude" directory. If any files are present in this folder, AMUMSS will first ask if you wish to include them in the created .pak file.
+- <p align="justify">If any scripts require that extra assets (images, sounds, etc.) be included in the packed (.pak) file, simply place them in the AMUMSS "ModExtraFilesToInclude" directory. If any files are present in this folder, AMUMSS will first ask if you wish to include them in the created .pak file.</p>
   
   <img src="./00 - Assets/Example_Include_Assets.png" title="Include Assets Example" alt="Example_Include_Assets.png" data-align="center">
 
-- When AMUMSS detects that there are multiple .lua files in the "ModScript" folder, it will ask whether to create a combined (merged) mod, or to create individual .pak files for each script.
+- <p align="justify">When AMUMSS detects that there are multiple .lua files in the "ModScript" folder, it will ask whether to create a combined (merged) mod, or to create individual .pak files for each script.</p>
   
   <img src="./00 - Assets/Example_Merged_Mod.png" title="Combined Mod Example" alt="Example_Merged_Mod.png" data-align="center">
 
-- When merging mods, the terminal will also ask you some questions to determine how the merged mod will be named. The file's name can be changed after building the .pak file.
+- <p align="justify">When merging mods, the terminal will also ask you some questions to determine how the merged mod will be named. The file's name can be changed after building the .pak file.</p>
   
-  - If you included any packed (.pak) mods in your "ModScript" folder, AMUMSS will not give you the option to select a naming scheme.
+  - <p align="justify">If you included any packed (.pak) mods in your "ModScript" folder, AMUMSS will not give you the option to select a naming scheme.</p>
 
-- Finally, AMUMSS will ask whether to copy the created mod's .pak file into the game's "PCBANKS\MODS" folder and delete "DISABLEMODS.txt". After answering, it will begin building the mod.
+- <p align="justify">Finally, AMUMSS will ask whether to copy the created mod's .pak file into the game's "PCBANKS\MODS" folder and delete "DISABLEMODS.txt". After answering, it will begin building the mod.</p>
 
-### Building Patch Mods
+### <p align="center">Building Patch Mods</p>
 
-When building your .lua script files into playable mods, AMUMSS has the option to use the files included in an existing mod's packed (.pak) archive instead of the game's latest files. This allows mods to be built atop the files provided by other (non-script) mods, ensuring that they are compatible with each other.
+<p align="justify">When building your .lua script files into playable mods, AMUMSS has the option to use the files included in an existing mod's packed (.pak) archive instead of the game's latest files. This allows mods to be built atop the files provided by other (non-script) mods, ensuring that they are compatible with each other.</p>
 
-- To build a combined (merged) mod that is compatible with your existing .pak files, simply place them into your "ModScript" folder along with your .lua script files.
+- <p align="justify">To build a combined (merged) mod that is compatible with your existing .pak files, simply place them into your "ModScript" folder along with your .lua script files.</p>
 
-- After running "BUILDMOD.bat", the terminal will ask you whether or not to create a "patch pak", which is a combined mod built using files provided by different mods' .pak files.
+- <p align="justify">After running "BUILDMOD.bat", the terminal will ask you whether or not to create a "patch pak", which is a combined mod built using files provided by different mods' .pak files.</p>
   
   <img src="./00 - Assets/Example_Patched_Mod.png" title="Patch Mod Example" alt="Example_Patched_Mod.png" data-align="center">
 
-- Once the mod's .pak file has been built, copy the created file from the "CreatedModPAKs" directory to the game's "PCBANKS\MODS" folder.
+- <p align="justify">Once the mod's .pak file has been built, copy the created file from the "CreatedModPAKs" directory to the game's "PCBANKS\MODS" folder.</p>
   
-  - <ins>**Note:**</ins> When using a patch mod, you should include the original mods' .pak files (the ones you placed in "ModScript") in the game's "PCBANKS\MODS" folder.
+  - <p align="justify"><ins>**Note:**</ins> When using a patch mod, you should include the original mods' .pak files (the ones you placed in "ModScript") in the game's "PCBANKS\MODS" folder.</p>
