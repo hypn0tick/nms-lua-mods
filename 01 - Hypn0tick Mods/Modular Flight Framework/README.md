@@ -72,7 +72,7 @@ Download the script to your AMUMSS "ModScript" folder. If you struggle to downlo
 
 You are now ready to build LUA script-based mods for No Man's Sky!
 
-<ins>**NOTE:**</ins> The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the [variant with base-game values](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua) included in the repository.
+<ins>**NOTE:**</ins> The URL above links to the script with my personal configurations that I have released. If you are looking to build a mod from scratch, please reference the variant with base-game values [included in the repository](https://github.com/hypn0tick/nms-lua-mods/blob/master/01%20-%20Hypn0tick%20Mods/Modular%20Flight%20Framework/Variants/Vanilla.lua).
 
 ### Build the Mod(s)
 
@@ -95,8 +95,6 @@ This function currently creates *minor* incompatibilities due to the way in whic
 - If you wish to have another mod affect these variables, ensure that the script loads and runs <ins>**after the Modular Flight Framework**</ins>. You can do this by re-naming the script's .lua file alphabetically so that it loads after MSS.
 
 <ins>**Example:**</ins> To load Shoemaker's Flight Adjustments on top of MFF's changes, simply rename "shoemakers_flight_adjustments.lua" to "Z_shoemakers_flight_adjustments.lua" or even "_shoemakers_flight_adjustments.lua" (better, as underscores load after letters).
-
-
 
 ## Creating & Modifying Modular Flight Mods
 
